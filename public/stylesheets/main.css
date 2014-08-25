@@ -5,3 +5,10 @@ body {
     padding-bottom: 30px;
     min-width: 970px;
 }
+.btn-primary{
+    background-image:none;background-color:#428bca;
+    border-radius:0;border:none;
+    -webkit-box-shadow: 0 0 4px 0 #2E2E2E;
+    -moz-box-shadow: 0 0 4px 0 #2E2E2E;
+    box-shadow: 0 0 4px 0 #2E2E2E;
+}

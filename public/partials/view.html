@@ -3,9 +3,9 @@
     <div class="row" ng-controller="UserCtrl as uc">
         &NonBreakingSpace;
         <div class="jumbotron">
-            <h2>A Modern Web Template</h2>
+            <h2>mm-lunch......</h2>
 
-            <p class="pull-right">... a UI created using AngularJS and Bootstrap</p>
+            <p class="pull-right">place your lunch order here....mmmmm....</p>
         </div>
 
 
@@ -28,6 +28,7 @@
                 <tr>
                     <th>FirstName</th>
                     <th>LastName</th>
+                    <th>Lunch Type</th>
                     <th>Age</th>
                 </tr>
                 </thead>
@@ -40,11 +41,14 @@
                         {{ usr.lastName }}
                     </td>
                     <td>
+                        {{ usr.lunchType }}
+                    </td>
+                    <td>
                         {{ usr.age }}
                     </td>
                 </tr>
                 <tr ng-hide="uc.users.length">
-                    <td colspan="3">
+                    <td colspan="4">
                         <p class="text-center">No Users Found</p>
                     </td>
                 </tr>

@@ -25,6 +25,7 @@ class UsersIT extends Specification {
         val request = FakeRequest.apply(POST, "/user").withJsonBody(Json.obj(
           "firstName" -> "Jack",
           "lastName" -> "London",
+          "lunchType" -> "Parmesan Salad",
           "age" -> 27,
           "active" -> true))
         val response = route(request)
