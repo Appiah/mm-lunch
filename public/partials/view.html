@@ -26,10 +26,10 @@
             <table id="user_list" class="table table-striped">
                 <thead>
                 <tr>
-                    <th>FirstName</th>
-                    <th>LastName</th>
+                    <th>FullName</th>
+                    <!--<th>LastName</th>-->
                     <th>Lunch Type</th>
-                    <th>Age</th>
+                    <!--<th>Age</th>-->
                 </tr>
                 </thead>
                 <tbody>
@@ -37,18 +37,18 @@
                     <td>
                         {{ usr.firstName }}
                     </td>
-                    <td>
+                    <!--<td>
                         {{ usr.lastName }}
-                    </td>
+                    </td>-->
                     <td>
                         {{ usr.lunchType }}
                     </td>
-                    <td>
+                    <!--<td>
                         {{ usr.age }}
-                    </td>
+                    </td>-->
                 </tr>
                 <tr ng-hide="uc.users.length">
-                    <td colspan="4">
+                    <td colspan="2">
                         <p class="text-center">No Users Found</p>
                     </td>
                 </tr>

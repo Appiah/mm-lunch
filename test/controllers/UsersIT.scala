@@ -23,10 +23,8 @@ class UsersIT extends Specification {
     "insert a valid json" in {
       running(FakeApplication()) {
         val request = FakeRequest.apply(POST, "/user").withJsonBody(Json.obj(
-          "firstName" -> "Jack",
-          "lastName" -> "London",
+          "fullName" -> "Jack Ryan",
           "lunchType" -> "Parmesan Salad",
-          "age" -> 27,
           "active" -> true))
         val response = route(request)
         response.isDefined mustEqual true

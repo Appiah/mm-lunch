@@ -1,8 +1,6 @@
 package models
 
-case class User( age: Int,
-                 firstName: String,
-                 lastName: String,
+case class User( fullName: String,
                  lunchType: String,
                  active: Boolean)
 
