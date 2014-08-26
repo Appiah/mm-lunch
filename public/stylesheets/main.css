@@ -12,3 +12,22 @@ body {
     -moz-box-shadow: 0 0 4px 0 #2E2E2E;
     box-shadow: 0 0 4px 0 #2E2E2E;
 }
+.btn-success{
+    background-image:none;background-color:#5cb85c;
+    border-radius:0;border:none;
+    -webkit-box-shadow: 0 0 4px 0 #2E2E2E;
+    -moz-box-shadow: 0 0 4px 0 #2E2E2E;
+    box-shadow: 0 0 4px 0 #2E2E2E;
+}
+.btn-warning{
+    background-image:none;background-color:#f0ad4e;
+    border-radius:0;border:none;
+    -webkit-box-shadow: 0 0 4px 0 #2E2E2E;
+    -moz-box-shadow: 0 0 4px 0 #2E2E2E;
+    box-shadow: 0 0 4px 0 #2E2E2E;
+}
+.jumbotron{
+    background-color:#428bca;-webkit-box-shadow: 0 0 4px 0 #2E2E2E;
+    -moz-box-shadow: 0 0 4px 0 #2E2E2E;
+    box-shadow: 0 0 4px 0 #2E2E2E;color:#fff;
+}
